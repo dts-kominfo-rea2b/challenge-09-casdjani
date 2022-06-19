@@ -3,14 +3,14 @@
 import './Contact.css'
 import React from 'react';
 
-const Contact = ({data}) => {
+const Contact = ({ value }) => {
     return (
         <div className='ProfileWrapper'>
-            <img className='ImgProfile' src={data.photo} />
+            <img className='ImgProfile' src={value.photo} />
             <div>
-                <h2>{data.name}</h2>
-                <p>{data.phone}</p>
-                <p>{data.email}</p>
+                <h2>{value.name}</h2>
+                <p>{value.phone}</p>
+                <p>{value.email}</p>
             </div>
         </div>
     )
