@@ -1,0 +1,10 @@
+.ProfileWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.ImgProfile{
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+}
